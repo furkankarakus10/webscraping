@@ -22,6 +22,3 @@ puanlar = soup.find_all("span",{"class":"sc-43986a27-1 fVmjht"})
 for baslik,puan in zip(basliklar,puanlar):
     print(baslik.text,"\n",puan.text[:3])
     print("*******************")
-
-
-
